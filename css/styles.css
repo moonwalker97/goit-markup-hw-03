@@ -1,0 +1,319 @@
+/* Основний колір тексту - #2E2F42 */
+
+/* Другорядний колір тексту - #434455 */
+
+/* Колір тексту кнопок - #4D5AE5 */
+
+/* Колір тексту кнопок при наведенні - #FFFFFF */
+
+/* Колір тексту футера - #E7E9FC */
+
+/* Колір основного фону - #E7E9FC */
+
+/* Колір другорядного фону - #F4F4FD */
+
+:root {
+  --body-color: #434455;
+  --footer-background-color: #2E2F42;
+  --footer-text-color: #E7E9FC;
+  --footer-logo-studio-color: #F4F4FD;
+  --button-text-color: #4D5AE5;
+  --button-text-hover-color: #FFFFFF;
+  --background-button-color: #f4f4fd;
+  --background-button-hover-color: #404bbf;
+  --link-color-hover: #404BBF;
+  --logo-web-color: #4d5ae5;
+  --logo-studio-color: #2e2f42;
+  --header-item-color: #2e2f42;
+  --address-item-color: #434455;
+  --hero-background-color: #2e2f42;
+  --hero-button-color: #ffffff;
+  --hero-button-background-color: #4d5ae5;
+  --hero-button-background-hover-color: #404bbf;
+  --hero-title-color: #ffffff;
+  --title-subtitle-color: #2e2f42;
+  --team-background-color: #F4F4FD;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  width: 1158px;
+  outline: 2px solid tomato;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  color: var(--body-color);
+}
+.section {
+  padding-top: 0;
+  padding-bottom: 120px;
+}
+
+/* Header */
+
+.header {
+  border-bottom: 1px solid #E7E9FC;
+}
+
+.header-item {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Логотип */
+
+.header-logo {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--logo-web-color);
+}
+
+.logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--logo-studio-color);
+}
+
+/* header-nav */
+
+.header-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--header-item-color);
+}
+
+.header-item:hover,
+.header-item:focus {
+  color: var(--link-color-hover);
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-item {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--address-item-color);
+}
+
+.address-item:hover,
+.address-item:focus {
+  color: var(--link-color-hover);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--hero-background-color);
+  text-align: center;
+  margin-top: 0;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--hero-title-color);
+}
+
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  color: var(--hero-button-color);
+  background: var(--hero-button-background-color);
+  cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 4px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--hero-button-color);
+  background: var(--hero-button-background-hover-color);
+}
+
+/* About */
+
+.about-subtitle {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  color: var(--title-subtitle-color);
+}
+
+.about-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--body-color);
+}
+
+/* Example */
+
+.example-title {
+  margin-top: 0;
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-subtitle-color);
+}
+
+/* Team */
+
+.team {
+  background-color: var(--team-background-color);
+}
+
+.team-title {
+  margin-top: 0;
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-subtitle-color);
+}
+
+.team-subtitle {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-subtitle-color);
+}
+
+.team-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--body-color);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--footer-background-color);
+}
+
+.footer-logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--logo-web-color);
+}
+
+.footer-logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--footer-logo-studio-color);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--footer-text-color);
+}
+
+/* Portfolio */
+/* Filter */
+
+.filter-list {
+  padding-top: 96px;
+  padding-bottom: 72px;
+}
+
+.filter-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-text-color);
+  background: var(--background-button-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--button-text-hover-color);
+  background: var(--background-button-hover-color);
+}
+
+/* Rows */
+
+.link {
+  text-decoration: none;
+}
+
+.row-title {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-subtitle-color);
+}
+
+.row-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-color);
+}
