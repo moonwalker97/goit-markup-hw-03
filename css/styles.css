@@ -358,6 +358,7 @@ margin-right: auto;
 }
 
 .filter-list {
+  justify-content: center;
   display: block;
   margin: auto;
   display: flex;
@@ -398,9 +399,12 @@ margin-right: auto;
 }
 
 .row-item {
+  box-sizing: border-box;
   width: 360px;
   margin-right: 24px;
   margin-bottom: 48px;
+  background: var(--hero-button-color);
+  border: 1px solid var(--footer-text-color);
 }
 
 .row-item:nth-child(3n) {
@@ -417,7 +421,9 @@ margin-right: auto;
 
 .row-title {
   margin-top: 32px;
-  margin-bottom: 8px;
+  margin-bottom: 0;
+  padding-bottom: 32px;
+  padding-left: 16px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -428,6 +434,8 @@ margin-right: auto;
 .row-text {
   margin-top: 0;
   margin-bottom: 0;
+  padding-bottom: 32px;
+  padding-left: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
