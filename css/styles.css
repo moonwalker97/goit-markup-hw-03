@@ -38,13 +38,12 @@
 .container {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0;
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: var(--body-color);
 }
@@ -56,10 +55,6 @@
 /* Header */
 
 .container-nav {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
-  width: 1440px;
   display: flex;
   align-items: center;
 }
@@ -101,8 +96,7 @@ ul {
 .header-logo {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
-  margin-right: 76px;
-  margin-left: 156px;
+  padding-right: 76px;
 }
 
 .header-logo {
@@ -144,7 +138,6 @@ ul {
 
 .address {
   margin-left: auto;
-  margin-right: 156px;
   font-style: normal;
 }
 
