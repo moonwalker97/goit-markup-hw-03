@@ -420,14 +420,16 @@ p{
   margin-right: auto;
 }
 
+.portfolio-section {
+padding-top: 96px;
+}
+
 .filter-list {
   justify-content: center;
   display: block;
-  margin: auto;
   display: flex;
-  width: 586px;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  flex-wrap: wrap;
+  margin-bottom: 72px;
 }
 
 .filter-item {
@@ -463,7 +465,7 @@ p{
 .row-list {
   display: flex;
   flex-wrap: wrap;
-  width: 1158px;
+  /* width: 1158px; */
 }
 
 .row-item {
@@ -487,9 +489,9 @@ p{
 }
 
 .row-title {
-  margin-top: 32px;
+  /* margin-top: 32px; */
   margin-bottom: 0;
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
   padding-left: 16px;
   font-weight: 500;
   font-size: 20px;
@@ -501,7 +503,7 @@ p{
 .row-text {
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
   padding-left: 16px;
   font-size: 16px;
   line-height: 1.5;
@@ -510,8 +512,7 @@ p{
 }
 
 .decor-border {
-  padding: 32px 16px;
-  border-left: 1px solid var(--footer-text-color);
-  border-right: 1px solid var(--footer-text-color);
-  border-bottom: 1px solid var(--footer-text-color);
+  /* padding: 32px 16px; */
+  border: 1px solid var(--footer-text-color); 1px solid var(--footer-text-color);
+  border-top: none;
 }
