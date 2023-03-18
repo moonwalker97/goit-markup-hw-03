@@ -116,9 +116,9 @@ p{
 /* Логотип */
 
 .header-logo {
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
-  padding-right: 76px;
+  margin-top: 25.5px;
+  margin-bottom: 25.5px;
+  margin-right: 76px;
 }
 
 .header-logo {
@@ -290,7 +290,7 @@ p{
   margin-right: 24px;
 }
 
-.exapmle-list .example-item:not(:last-child) {
+.example-list .example-item:last-child {
   margin-right: 0;
 }
 
@@ -309,30 +309,36 @@ p{
 
 .team-section {
   padding-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--team-background-color);
 }
 
 .team-list {
   display: flex;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
 }
 
 .team-item {
   margin-right: 24px;
   /* justify-content: center;
   align-items: center; */
-  background: var(--button-text-hover-color:);
+  background: var(--button-text-hover-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
+
+.team-list .team-item:last-child {
+  margin-right: 0;
+}
+
 .team-body {
   padding: 32px 16px;
 }
 
 .team-title {
-  /* margin-top: 0;
-  margin-bottom: 72px; */
+  margin: 0;
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -367,15 +373,12 @@ p{
 /* Footer */
 
 .footer {
+  padding: 0 15px;
   background-color: var(--footer-background-color);
 }
 
 .footer-container {
   padding: 100px 15px;
-}
-
-.logo {
-  
 }
 
 .footer-logo {
@@ -420,6 +423,10 @@ p{
   margin-right: auto;
 }
 
+.project-title {
+  display: none;
+}
+
 .portfolio-section {
 padding-top: 96px;
 }
@@ -437,7 +444,7 @@ padding-top: 96px;
 }
 
 .filter-list .filter-item:not(:last-child) {
-  padding-right: 24px;
+  margin-right: 24px;
 }
 
 .filter-btn {
@@ -490,7 +497,7 @@ padding-top: 96px;
 
 .row-title {
   margin: 0;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -512,6 +519,6 @@ padding-top: 96px;
 .decor-border {
   padding: 32px;
   padding-left: 16px;
-  border: 1px solid var(--footer-text-color); 1px solid var(--footer-text-color);
+  border: 1px solid var(--footer-text-color);
   border-top: none;
 }
