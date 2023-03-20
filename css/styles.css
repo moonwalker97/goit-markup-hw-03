@@ -51,7 +51,7 @@ body {
 img {
   display: block;
   max-width: 100%;
-height: auto;
+  height: auto;
 }
 
 .section {
@@ -107,14 +107,13 @@ ul {
   text-decoration: none;
 }
 
-h3{
+h3 {
   margin: 0;
 }
 
-p{
+p {
   margin: 0;
 }
-
 
 /* Логотип */
 
@@ -200,8 +199,6 @@ p{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  
 }
 
 .hero-title {
@@ -251,26 +248,18 @@ p{
   margin-right: 24px;
 }
 
-.about-title {
-  /* visibility: hidden; */
-  /* display: none; */
-  /* visibility: hidden;
-  margin: 0; */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
-
 
 .about-list .about-item:last-child {
   margin-right: 0;
@@ -439,7 +428,7 @@ p{
 }
 
 .portfolio-section {
-padding-top: 96px;
+  padding-top: 96px;
 }
 
 .filter-list {
