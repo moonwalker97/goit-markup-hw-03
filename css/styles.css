@@ -69,9 +69,11 @@ height: auto;
 .container-nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header {
+  padding: 0 15px;
   border-bottom: 1px solid var(--footer-text-color);
 }
 
@@ -91,6 +93,7 @@ height: auto;
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
 .header-item {
@@ -116,8 +119,8 @@ p{
 /* Логотип */
 
 .header-logo {
-  margin-top: 25.5px;
-  margin-bottom: 25.5px;
+  /* margin-top: 25.5px;
+  margin-bottom: 25.5px; */
   margin-right: 76px;
 }
 
@@ -250,8 +253,24 @@ p{
 
 .about-title {
   /* visibility: hidden; */
-  display: none;
+  /* display: none; */
+  /* visibility: hidden;
+  margin: 0; */
 }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 
 .about-list .about-item:last-child {
   margin-right: 0;
@@ -373,12 +392,8 @@ p{
 /* Footer */
 
 .footer {
-  padding: 0 15px;
+  padding: 100px;
   background-color: var(--footer-background-color);
-}
-
-.footer-container {
-  padding: 100px 15px;
 }
 
 .footer-logo {
@@ -421,10 +436,6 @@ p{
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.project-title {
-  display: none;
 }
 
 .portfolio-section {
